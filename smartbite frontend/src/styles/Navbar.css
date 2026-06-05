@@ -1,0 +1,71 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0px 50px; /* Reduced vertical padding */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+/* Updated logo container and image */
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Logo image with controlled size */
+.logo-img {
+    height: 100px; /* Small and consistent */
+    width: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+/* Logo text (replaces old .logo class) */
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    line-height: 1;
+    margin: 0;
+}
+
+/* Navbar adjustments to maintain clean height */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 50px; /* Slight vertical padding for spacing */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: rgb(0, 255, 166);
+}
